@@ -1,7 +1,8 @@
 root
 ---
-taking [datatalks-machine-learning-zoomcamp] course. 
-[datatalks-machine-learning-zoomacamp]: https://github.com/DataTalksClub/machine-learning-zoomcamp
+taking [datatalks-machine-learning-zoomcamp] course.  
+
+[datatalks-machine-learning-zoomcamp]: https://github.com/DataTalksClub/machine-learning-zoomcamp
 
 ## setting up environment
 
