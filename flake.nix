@@ -15,7 +15,7 @@
           seaborn
           notebook
         ]))
-      ];
+      ] ++ [ uv docker ];
     };
   };
 }
