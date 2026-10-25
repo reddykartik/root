@@ -11,7 +11,7 @@ $ curl -s -w '\n' http://0.0.0.0:9696/
 pipeline.bin: d706e258bd29cdaaccab12e05a9ffb86a728332dd67629525056492b939da8a8
 
 // post url
-$ curl -s -w '\n' http://localhost:9696/predict \
+$ curl -s -w '\n' http://0.0.0.0:9696/predict \
     -H 'Content-Type: application/json' \
     -d '{
       "lead_source":"organic_search",
