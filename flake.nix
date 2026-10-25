@@ -14,6 +14,8 @@
           matplotlib
           seaborn
           notebook
+          uvicorn
+          fastapi
         ]))
       ];
     };
