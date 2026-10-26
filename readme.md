@@ -1,11 +1,16 @@
 root
 ---
-taking [datatalks-machine-learning-zoomcamp] course.  
 
-[datatalks-machine-learning-zoomcamp]: https://github.com/DataTalksClub/machine-learning-zoomcamp
+Taking the [DataTalks Machine Learning ZoomCamp](https://github.com/DataTalksClub/machine-learning-zoomcamp)
 
-## setting up environment
-
+1. Setting up the local development
 ```bash
-$ nix develop
+# install nix package manager
+sudo dnf install nix
+# enable flakes 
+# edit /etc/nix/nix.conf 
+experimental-features = nix-command flakes
+
+# start the development shell
+nix develop
 ```
