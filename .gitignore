@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# nix build outputs
+/result
+/result-*
+
+# exported container images
+*.tar
+*.tar.gz
+
