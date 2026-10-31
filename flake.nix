@@ -21,6 +21,7 @@
       packages = [ (mkPythonEnv {
         extraPackages = ps: with ps; [
           matplotlib seaborn notebook
+          ipython xgboost
         ];
       })];
     };
